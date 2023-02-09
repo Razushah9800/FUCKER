@@ -180,8 +180,8 @@ def banner():
 ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░░╚═════╝░""")
 def info():
 	print(f"""\033[1;37m----------------------------------------------
- Author     : K MA BOKA HAINA RA 
- Github     : Razushah9800
+ Author     : K MA BOKA HAINA RA PARA
+ Github     : IDK MAYBE RAAJUDON
  Facebook   : χε ιταͼΉι
  Version    : 0.2.6
 \033[1;37m----------------------------------------------""")
