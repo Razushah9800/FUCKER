@@ -656,7 +656,7 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\033[1;32m [RAJU-OK] {idf} │ {pw}\033[1;97m ')
+				print(f'\033[1;32m [DON-OK] {idf} │ {pw}\033[1;97m ')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
 				break
 			else:
