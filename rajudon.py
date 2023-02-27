@@ -183,7 +183,7 @@ def info():
  Author     : Raju Don
  Github     : Razushah9800
  Facebook   : χε ιταͼΉι
- Version    : 0.0.1
+ Version    : 1.0.8
 \033[1;37m----------------------------------------------""")
 
 #------------------[ APPROVAL SYSTEM ]-------------------#
