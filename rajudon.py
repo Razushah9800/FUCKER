@@ -180,7 +180,7 @@ def banner():
 ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░░╚═════╝░""")
 def info():
 	print(f"""\033[1;37m----------------------------------------------
- Author     : Raju Don
+ Author     : RAJU DON ENTER!!!
  Github     : Razushah9800
  Facebook   : χε ιταͼΉι
  Version    : 1.0.8
