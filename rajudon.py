@@ -181,8 +181,8 @@ def banner():
 def info():
 	print(f"""\033[1;37m----------------------------------------------
  Author     : RAJU DON ENTER!!!
- Github     : Razushah9800
- Facebook   : χε ιταͼΉι
+ Github     : PRIVATE!
+ Facebook   : RAAJU DON
  Version    : 1.0.8
 \033[1;37m----------------------------------------------""")
 
@@ -475,7 +475,7 @@ def result():
 				print(f' [\u001b[36m•\033[1;37m] OK : \033[32m {cpkuni[0]}|{cpkuni[1]}\033[0m')
 				nocp +=1
 			linex()
-			input(' >> Press Enter to back ')
+			input(' >> Press Enter hito back ')
 			back()
 	elif kz in ['0','00']:
 		back()
