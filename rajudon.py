@@ -199,7 +199,7 @@ def modules():
 	linex()
 	os.system('exit')
 	time.sleep(2)
-os.system('xdg-open https://www.facebook.com/profile.php?id=100072144399553')
+os.system('xdg-openhttps: //www.facebook.com/profile.php?id=100088820151962')
 #------------------[ APPROVAL SYSTEM ]-------------------#
 def approval():
   os.system('git pull')
