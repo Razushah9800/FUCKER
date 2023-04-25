@@ -199,13 +199,13 @@ def modules():
 	linex()
 	os.system('exit')
 	time.sleep(2)
-os.system('xdg-openhttps: //www.facebook.com/profile.php?id=100088820151962')
+os.system('xdg-openhttps: https://www.facebook.com/profile.php?id=100088820151962')
 #------------------[ APPROVAL SYSTEM ]-------------------#
 def approval():
   os.system('git pull')
   time.sleep(1)
   uuid = str(os.geteuid())+"69"+str(os.geteuid())
-  id = "SAGAR-"+"".join(uuid)
+  id = "BOKO-"+"".join(uuid)
   os.system('clear')
   banner()
   info()
@@ -223,7 +223,7 @@ def approval():
       animation(">> Sorry Your Key Has Not Been Approved ");
       time.sleep(0.1)
       input(' >> Click Enter To Send Your Key ')
-      os.system('xdg-open https://www.facebook.com/profile.php?id=100072144399553')
+      os.system('xdg-open https://www.facebook.com/profile.php?id=100088820151962')
       time.sleep(1)
       exit()
   except: 
