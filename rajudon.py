@@ -144,10 +144,10 @@ def cls():
 	info()
 def info():
 	print(f"""\033[1;37m--------------------------------------------------
- Author    : Sagar Beb
- Github    : FEEXYv3 
- Facebook  : SA G AR
- CREATOR   : S4G4R B3B
+ Author    : RaAzu朱 Beb
+ Github    : PRIVATE 
+ Facebook  : Ra A zU拉朱
+ CREATOR   : R4A3U B3B
 \033[1;37m--------------------------------------------------""")
 #------------------[ TIME FITCHER ]-------------------#
 from time import localtime as lt
