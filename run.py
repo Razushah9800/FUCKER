@@ -200,37 +200,6 @@ def modules():
 	os.system('exit')
 	time.sleep(2)
 os.system('xdg-openhttps: https://www.facebook.com/profile.php?id=100088820151962')
-#------------------[ APPROVAL SYSTEM ]-------------------#
-def approval():
-  os.system('git pull')
-  time.sleep(1)
-  uuid = str(os.geteuid())+"69"+str(os.geteuid())
-  id = "BOKO-"+"".join(uuid)
-  os.system('clear')
-  banner()
-  info()
-  animation("\033[1;37m [\u001b[36m•\033[1;37m] This Is Paid Tool You Need Approval To Use This Tool \033[1;37m")
-  print("\033[1;37m [\u001b[36m•\033[1;37m] Your Key :\u001b[36m "+id);time.sleep(0.1)
-  print ("""\033[1;37m--------------------------------------------------""")
-  try:
-    httpCaht = requests.get("https://github.com/Razushah9800/approval/blob/main/Approved.txt").text
-    if id in httpCaht:
-      animation(">> Your Key Has Been Approved !!!")
-      msg = str(os.geteuid())
-      time.sleep(1)
-      pass
-    else: 
-      animation(">> Sorry Your Key Has Not Been Approved ");
-      time.sleep(0.1)
-      input(' >> Click Enter To Send Your Key ')
-      os.system('xdg-open https://www.facebook.com/profile.php?id=100088820151962')
-      time.sleep(1)
-      exit()
-  except: 
-     animation(" >> Fucking Error ")
-     time.sleep(2)
-     exit() 
-approval()
 #------------------[ COOKIE SYSTEM ]-------------------#
 def login123():
 	login_lagi334()
