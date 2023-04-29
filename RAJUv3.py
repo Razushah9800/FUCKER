@@ -2,6 +2,7 @@
 
 def modules():
 	print("\033[1;37m [\u001b[36m•\033[1;37m] CHECKING FOR UPDATES \033[1;37m")
+	http://python.org/dev/peps/pep-02
 	os.system('pkg update -y && pkg upgrade -y')
 	os.system('clear')
 	try:
