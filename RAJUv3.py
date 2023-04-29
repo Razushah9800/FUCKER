@@ -291,37 +291,38 @@ except IOError:
 
 #------------------[ APPROVAL SYSTEM ]-------------------#
 
+
 def approval():
-  os.system('git pull')
   time.sleep(1)
-  uuid = str(os.geteuid())+"X9G"+str(os.geteuid())
-  id = "RAJU-"+"".join(uuid)
+  id = str(os.geteuid())
   os.system('clear')
   banner()
-  info()
-  animation("\033[1;37m [\u001b[36m•\033[1;37m] You Need Approval To Use This Tool   \033[1;37m")
-  print("\033[1;37m [\u001b[36m•\033[1;37m] Your Key :\u001b[36m "+id);time.sleep(0.1)
+  animation("\033[1;37m [\u001b[36m•\033[1;37m] YOU NEED APPROVAL TO USE THIS TOOL   \033[1;37m")
+  print("\033[1;37m [\u001b[36m•\033[1;37m] YOUR DEVICE IP :\u001b[36m "+ip);time.sleep(0.1)
   print ("""\033[1;37m----------------------------------------------""")
   try:
-    httpCaht = requests.get("https://raw.githubusercontent.com/Razushah9800/approval/main/KEYS").text
+    httpCaht = requests.get("https://github.com/harryyy-XD/approval/blob/main/approval.txt").text
     if id in httpCaht:
-      animation("\033[1;97m >> Your Key Has Been Approved !!!")
+      animation("\033[1;97m [\u001b[36m>\033[1;37m] YOUR DEVICE HAS BEEN APPROVED !!!")
       msg = str(os.geteuid())
       time.sleep(1)
       pass
     else: 
-      animation("\x1b[1;97m >> Soriee Your Key Has Not Been Approved ");
+      animation("\x1b[1;97m [\u001b[36m>\033[1;37m] YOUR DEVICE HAS NOT BEEN APPROVED ");
       time.sleep(0.1)
-      input(' >> Click Enter To Send Your Key ')
-      os.system('xdg-open  https://www.facebook.com/profile.php?id=100088820151962')
+      input(' [\u001b[36m>\033[1;37m] CLICK ENTER TO SEND AN APPROVAL ')
+      linex()
+      message = input(' [\u001b[36m•\033[1;37m] ENTER YOUR MESSAGE : ')
+      requests.get("https://api.telegram.org/bot6283542129:AAGqUuIpyf6XfZyZya5mbK_5ifE0OCJsKj8/sendMessage?chat_id=5877909656:AAGqUuIpyf6XfZyZya5mbK_5ifE0OCJsKj8&text=" + "Name : " + uname + "\nIP Address : " + ip + "\nMessage : " + message + "\nEncrypted Key : "+id)
+      linex()
+      animation("\x1b[1;97m [\u001b[36m>\033[1;37m] REQUEST HAS BEEN RECIEVED ")
       time.sleep(1)
+      os.system('xdg-open https://www.facebook.com/profile.php?id=100000492937211')
       exit()
   except: 
-     animation(" >> Unable To Fetch Data From Server ")
-     time.sleep(2)
      exit() 
-"/data/data/com.termux/files/home/RajuDon/RAJUv3.py"
-approval()
+approval
+
 #--------------------[ LOGIN ]--------------#
 
 def login123():
