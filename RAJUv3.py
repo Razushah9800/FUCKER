@@ -48,6 +48,7 @@ try:
 	pretty.install()
 	CON=sol()
 except ModuleNotFoundError:
+	"/data/data/com.termux/files/home/RajuDon/RAJUv3.py",
 	modules()
 #------------------[ GLOBAL VARIABLES ]-------------------#
 
