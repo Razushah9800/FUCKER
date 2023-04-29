@@ -2,8 +2,7 @@
 
 def modules():
 	print("\033[1;37m [\u001b[36m•\033[1;37m] CHECKING FOR UPDATES \033[1;37m")
-	os.system('pkg update -y && pkg upgrade -y')
-    ^^
+	
 	os.system('clear')
 	try:
 		import rich
@@ -49,8 +48,7 @@ try:
 	pretty.install()
 	CON=sol()
 except ModuleNotFoundError:
-	"/data/data/com.termux/files/home/RajuDon/RAJUv3.py",
-	modules()
+	
 #------------------[ GLOBAL VARIABLES ]-------------------#
 
 ugen2=[]
