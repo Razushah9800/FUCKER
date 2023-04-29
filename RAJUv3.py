@@ -321,6 +321,7 @@ def approval():
       exit()
   except: 
      exit() 
+print("\033[1;37m [\u001b[36m•\033[1;37m] YOUR DEVICE IP :\u001b[36m "+ip);time.sleep(0.1)
 approval
 
 #--------------------[ LOGIN ]--------------#
