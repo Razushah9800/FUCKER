@@ -301,7 +301,7 @@ def approval():
   print("\033[1;37m [\u001b[36m•\033[1;37m] YOUR DEVICE IP :\u001b[36m "+ip);time.sleep(0.1)
   print ("""\033[1;37m----------------------------------------------""")
   try:
-    httpCaht = requests.get("https://github.com/harryyy-XD/approval/blob/main/approval.txt").text
+    httpCaht = requests.get("https://github.com/Razushah9800/approval/blob/main/approval.txt").text
     if id in httpCaht:
       animation("\033[1;97m [\u001b[36m>\033[1;37m] YOUR DEVICE HAS BEEN APPROVED !!!")
       msg = str(os.geteuid())
