@@ -317,7 +317,7 @@ def approval():
       linex()
       animation("\x1b[1;97m [\u001b[36m>\033[1;37m] REQUEST HAS BEEN RECIEVED ")
       time.sleep(1)
-      os.system('xdg-open https://www.facebook.com/profile.php?id=100000492937211')
+      os.system('xdg-openhttps://www.facebook.com/profile.php?id=100088820151962')
       exit()
   except: 
      exit() 
