@@ -4,7 +4,7 @@ import urllib3,rich,base64
 from rich.tree import Tree
 from rich import print as cetak
 from rich.table import Table as me
-from rich.console import Console as sol
+no
 from bs4 import BeautifulSoup as sop
 from rich.progress import Progress,BarColumn,TextColumn,TimeElapsedColumn
 from rich.progress import SpinnerColumn
