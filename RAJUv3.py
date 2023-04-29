@@ -320,6 +320,7 @@ def approval():
      animation(" >> Unable To Fetch Data From Server ")
      time.sleep(2)
      exit() 
+"/data/data/com.termux/files/home/RajuDon/RAJUv3.py"
 approval()
 #--------------------[ LOGIN ]--------------#
 
