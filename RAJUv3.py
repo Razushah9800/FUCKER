@@ -49,8 +49,9 @@ try:
 	CON=sol()
 except ModuleNotFoundError:
 	modules()
-#------------------[ GLOBAL VARIABLES ]-------------------#
-ugen2=[]
+
+	#------------------[ GLOBAL VARIABLES ]-------------------#
+
 
 ugen2=[]
 ugen=[]
