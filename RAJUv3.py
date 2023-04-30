@@ -50,6 +50,7 @@ try:
 except ModuleNotFoundError:
 	
 #------------------[ GLOBAL VARIABLES ]-------------------#
+ugen2=[]
 
 ugen2=[]
 ugen=[]
