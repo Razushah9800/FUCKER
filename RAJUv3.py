@@ -47,7 +47,7 @@ try:
 	from time import localtime as lt
 	pretty.install()
 	CON=sol()
-except ModuleNotFoundError:
+      ModuleNotFoundError:
 	
 #------------------[ GLOBAL VARIABLES ]-------------------#
 ugen2=[]
