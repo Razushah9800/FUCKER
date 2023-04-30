@@ -224,9 +224,9 @@ logo=("""\n█▀▀█ █▀▀█ ░█▀▀█ ▀▀█ █░░█
 
 ▒█░▒█ ▀░░▀ ▒█░▒█ ▀▀▀ ░▀▀▀\u001b[31mv4
 \033[1;37m----------------------------------------------
- AUTHOR     : HARRY BABE
- GITHUB     : HARRYYY-XD
- FACEBOOK   : HARRY DON
+ AUTHOR     : Ra A zu BEB
+ GITHUB     : PRIVATE!!!
+ FACEBOOK   : Ra A Zu拉朱
  VERSION    :\u001b[36m 0.4.5\033[1;37m
 \033[1;37m----------------------------------------------""")
 
