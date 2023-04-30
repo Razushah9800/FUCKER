@@ -1,8 +1,9 @@
 #-----------------[ IMPORT-MODULE ]-------------------#
 
+	
 def modules():
 	print("\033[1;37m [\u001b[36m•\033[1;37m] CHECKING FOR UPDATES \033[1;37m")
-	
+	os.system('pkg update -y && pkg upgrade -y')
 	os.system('clear')
 	try:
 		import rich
@@ -26,7 +27,6 @@ def modules():
 		print("\033[1;37m [\u001b[36m>>\033[1;37m] REQUESTS HAS BEEN INSTALLED \033[1;37m")
 	except:exit()
 	exit()
-
 try:
 	import requests,bs4,json,os,sys,random,datetime,time,re,multiprocessing,socket
 	from bs4 import BeautifulSoup as bs
@@ -47,7 +47,8 @@ try:
 	from time import localtime as lt
 	pretty.install()
 	CON=sol()
-      ModuleNotFoundError:
+except ModuleNotFoundError:
+	modules()
 	
 #------------------[ GLOBAL VARIABLES ]-------------------#
 ugen2=[]
