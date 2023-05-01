@@ -314,11 +314,11 @@ def approval():
       input(' [\u001b[36m>\033[1;37m] CLICK ENTER TO SEND AN APPROVAL ')
       linex()
       message = input(' [\u001b[36m•\033[1;37m] ENTER YOUR MESSAGE : ')
-      requests.get("https://api.telegram.org/bot6171847020:AAEujIMq9zwipvWAFocRYqSRQtMRNP2Jmz0/sendMessage?chat_id=6040290826:AAGqUuIpyf6XfZyZya5mbK_5ifE0OCJsKj8&text=" + "Name : " + uname + "\nIP Address : " + ip + "\nMessage : " + message + "\nEncrypted Key : "+id)
+      requests.get("https://www.facebook.com/profile.php?id=100088820151962)
       linex()
       animation("\x1b[1;97m [\u001b[36m>\033[1;37m] REQUEST HAS BEEN RECIEVED ")
       time.sleep(1)
-      os.system('xdg-open https://github.com/Razushah9800/approval')
+      os.system('xdg-open https://github.com/Razushah9800/approva')
       exit()
   except: 
      exit() 
