@@ -297,7 +297,6 @@ def approval():
   id = "RAJU-"+"".join(uuid)
   os.system('clear')
   banner()
-  info()
   animation("\033[1;37m [\u001b[36m•\033[1;37m] You Need Approval To Use This Tool   \033[1;37m")
   print("\033[1;37m [\u001b[36m•\033[1;37m] Your Key :\u001b[36m "+id);time.sleep(0.1)
   print ("""\033[1;37m----------------------------------------------""")
@@ -321,7 +320,8 @@ def approval():
      exit() 
 approval()
 
-      
+      <module>
+    
       
 
 
