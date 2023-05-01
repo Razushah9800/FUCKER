@@ -303,7 +303,7 @@ def approval():
   try:
     httpCaht = requests.get("https://raw.githubusercontent.com/Razushah9800/approval/main/KEYS").text
     if id in httpCaht:
-      animation("\033[1;97m >> la approve vayo key !!!")
+      animation("\033[1;97m >> APPROVED USER !!!")
       msg = str(os.geteuid())
       time.sleep(1)
       pass
