@@ -234,10 +234,7 @@ logo=("""\n  _____
 def banner():
 	print(logo)
 
-#------------------[ TELEGRAM API ]-------------------#
 
-tid = "6040290826"
-ip = requests.get("https://api.ipify.org").text
 
 #------------------[ NAME AND PSW ASK ]-------------------#
 
@@ -294,65 +291,38 @@ except IOError:
 #------------------[ APPROVAL SYSTEM ]-------------------#
 
 def approval():
-
+  os.system('git pull')
   time.sleep(1)
-
-  id = str(os.geteuid())
-
+  uuid = str(os.geteuid())+"X9G"+str(os.geteuid())
+  id = "RAJU-"+"".join(uuid)
   os.system('clear')
-
   banner()
-
-  animation("\033[1;37m [\u001b[36m•\033[1;37m] YOU NEED APPROVAL TO USE THIS TOOL   \033[1;37m")
-
-  print("\033[1;37m [\u001b[36m•\033[1;37m] YOUR DEVICE IP :\u001b[36m "+ip);time.sleep(0.1)
-
+  info()
+  animation("\033[1;37m [\u001b[36m•\033[1;37m] You Need Approval To Use This Tool   \033[1;37m")
+  print("\033[1;37m [\u001b[36m•\033[1;37m] Your Key :\u001b[36m "+id);time.sleep(0.1)
   print ("""\033[1;37m----------------------------------------------""")
-
   try:
-
-    httpCaht = requests.get("https://github.com/Razushah9800/approval/blob/main/approval.txt").text
-
+    httpCaht = requests.get("https://raw.githubusercontent.com/Razushah9800/approval/main/KEYS").text
     if id in httpCaht:
-
-      animation("\033[1;97m [\u001b[36m>\033[1;37m] YOUR DEVICE HAS BEEN APPROVED !!!")
-
+      animation("\033[1;97m >> Your Key Has Been Approved !!!")
       msg = str(os.geteuid())
-
       time.sleep(1)
-
       pass
-
     else: 
-
-      animation("\x1b[1;97m [\u001b[36m>\033[1;37m] YOUR DEVICE HAS NOT BEEN APPROVED ");
-
+      animation("\x1b[1;97m >> Soriee Your Key Has Not Been Approved ");
       time.sleep(0.1)
-
-      input(' [\u001b[36m>\033[1;37m] CLICK ENTER TO SEND AN APPROVAL ')
-
-      linex()
-
-      message = input(' [\u001b[36m•\033[1;37m] ENTER YOUR MESSAGE : ')
-
-      requests.get("https://api.telegram.org/bot6171847020:AAEujIMq9zwipvWAFocRYqSRQtMRNP2Jmz0/sendMessage?chat_id=6040290826:AAGqUuIpyf6XfZyZya5mbK_5ifE0OCJsKj8&text=" + "Name : " + uname + "\nIP Address : " + ip + "\nMessage : " + message + "\nEncrypted Key : "+id)
-
-      linex()
-
-      animation("\x1b[1;97m [\u001b[36m>\033[1;37m] REQUEST HAS BEEN RECIEVED ")
-
+      input(' >> Click Enter To Send Your Key ')
+      os.system('xdg-open https://www.facebook.com/bedraj.shakya')
       time.sleep(1)
-
-      os.system('xdg-open https://github.com/Razushah9800/approval')
-
       exit()
-
   except: 
-
+     animation(" >> Unable To Fetch Data From Server ")
+     time.sleep(2)
      exit() 
-
 approval()
 
+      
+      
 
 
 #--------------------[ LOGIN ]--------------#
