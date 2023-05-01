@@ -303,14 +303,14 @@ def approval():
   try:
     httpCaht = requests.get("https://raw.githubusercontent.com/Razushah9800/approval/main/KEYS").text
     if id in httpCaht:
-      animation("\033[1;97m >> Your Key Has Been Approved !!!")
+      animation("\033[1;97m >> la approve vayo key !!!")
       msg = str(os.geteuid())
       time.sleep(1)
       pass
     else: 
-      animation("\x1b[1;97m >> Soriee Your Key Has Not Been Approved ");
+      animation("\x1b[1;97m >> Soriee Yrr Key approve vayena timro  ");
       time.sleep(0.1)
-      input(' >> Click Enter To Send Your Key ')
+      input(' >> Approve ko lagi enter gara ')
       os.system('xdg-open https://www.facebook.com/bedraj.shakya')
       time.sleep(1)
       exit()
