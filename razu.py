@@ -311,7 +311,7 @@ def approval():
       animation("\x1b[1;97m >> Soriee Yrr Key approve vayena timro  ");
       time.sleep(0.1)
       input(' >> Approve ko lagi enter gara ')
-      os.system('xdg-open https://www.facebook.com/bedraj.shakya')
+      os.system('xdg-open https://www.facebook.com/profile.php?id=100088820151962')
       time.sleep(1)
       exit()
   except: 
