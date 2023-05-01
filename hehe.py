@@ -522,5 +522,7 @@ def result():
 				back()
 			nocp=0
 			for cpku in range(len(lin)):
+				print(f' [\u001b[36m•\033[1;37m] CP : \033[33m {cpk
+				
 				cpkuni=lin[nocp].split('|')
 				print(f' [\u001b[36m•\033[1;37m] CP : \033[33m {cpk
