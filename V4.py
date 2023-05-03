@@ -1311,11 +1311,11 @@ class Main:
 
 
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrLEZON -cov', 'r').read()
+	
 	clear()
 	print(logo)
 	r1=requests.get("https://github.com/Razushah9800/approval/blob/main/APVL.txt").text
-	if key1 in r1:
+	if KEYS in r1:
 		os.system('clear')
 		print(logo)
 		Main()
