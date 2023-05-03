@@ -1309,32 +1309,3 @@ class Main:
 
 		self.loop +=1
 
-def approval():
-  os.system('git pull')
-  time.sleep(1)
-  uuid = str(os.geteuid())+"X9G"+str(os.geteuid())
-  id = "RAJU-"+"".join(uuid)
-  os.system('clear')
-  banner()
-  animation("\033[1;37m [\u001b[36m•\033[1;37m] You Need Approval To Use This Tool   \033[1;37m")
-  print("\033[1;37m [\u001b[36m•\033[1;37m] Your Key :\u001b[36m "+id);time.sleep(0.1)
-  print ("""\033[1;37m----------------------------------------------""")
-  try:
-    httpCaht = requests.get("https://raw.githubusercontent.com/Razushah9800/approval/main/KEYS").text
-    if id in httpCaht:
-      animation("\033[1;97m >> APPROVED USER !!!")
-      msg = str(os.geteuid())
-      time.sleep(1)
-      pass
-    else: 
-      animation("\x1b[1;97m >> Soriee Yrr Key approve vayena timro  ");
-      time.sleep(0.1)
-      input(' >> Approve ko lagi enter gara ')
-      os.system('xdg-open https://www.facebook.com/profile.php?id=100088820151962')
-      time.sleep(1)
-      exit()
-  except: 
-     animation(" >> Unable To Fetch Data From Server ")
-     time.sleep(2)
-     exit() 
-approval()
