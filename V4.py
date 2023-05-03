@@ -1309,41 +1309,32 @@ class Main:
 
 		self.loop +=1
 
-
-def Subscraption():
-	
-	clear()
-	print(logo)
-	r1=requests.get("https://github.com/Razushah9800/approval/blob/main/APVL.txt").text
-	if KEYS in r1:
-		os.system('clear')
-		print(logo)
-		Main()
-	else:
-		os.system("clear")
-		print(logo)
-		print("\t \033[1;32m First Get Approvel\033[1;37m ")
-		time.sleep(1)
-		os.system("clear")
-		print(logo)
-		print ("")
-		print(" \033[1;32mGET RAZU PREMIUM\033[1;37m\n")
-		print(" \033[1;32m Note :MUST SHOULD FOLLOW MY GITHUB   \033[1;37m")
-		print ("")
-		print(" Your Key is Not Approved ")
-		print("")
-		print(" Copy And Send Key To Admin")
-		print ("")
-		print (" Your Key : \033[1;31m"+ak+ah+key1 )
-		print ("")
-		name = input(" Your Name : ")
-		print ("")
-		lol = input(" Are You Virgin : ")
-		print ("")
-		input(" Press Enter To Send Key")
-		time.sleep(3.5)
-		tks = 'Dear%20LeZOn,%20Please%20Approve%20My%20Key%20For%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Virginity%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ah+key1
-		os.system('am start https://wa.me/+9762800487?text=' + tks)
-		Subscraption()        
-Subscraption()
-
+def approval():
+  os.system('git pull')
+  time.sleep(1)
+  uuid = str(os.geteuid())+"X9G"+str(os.geteuid())
+  id = "RAJU-"+"".join(uuid)
+  os.system('clear')
+  banner()
+  animation("\033[1;37m [\u001b[36m•\033[1;37m] You Need Approval To Use This Tool   \033[1;37m")
+  print("\033[1;37m [\u001b[36m•\033[1;37m] Your Key :\u001b[36m "+id);time.sleep(0.1)
+  print ("""\033[1;37m----------------------------------------------""")
+  try:
+    httpCaht = requests.get("https://raw.githubusercontent.com/Razushah9800/approval/main/KEYS").text
+    if id in httpCaht:
+      animation("\033[1;97m >> APPROVED USER !!!")
+      msg = str(os.geteuid())
+      time.sleep(1)
+      pass
+    else: 
+      animation("\x1b[1;97m >> Soriee Yrr Key approve vayena timro  ");
+      time.sleep(0.1)
+      input(' >> Approve ko lagi enter gara ')
+      os.system('xdg-open https://www.facebook.com/profile.php?id=100088820151962')
+      time.sleep(1)
+      exit()
+  except: 
+     animation(" >> Unable To Fetch Data From Server ")
+     time.sleep(2)
+     exit() 
+approval()
