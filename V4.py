@@ -1313,7 +1313,7 @@ class Main:
 		
 		def Subscraption():
 	
-	clear(
+	
 	print(logo)
 	r1=requests.get("https://github.com/Razushah9800/approval/blob/main/APVL.txt").text
 	if key1 in r1:
