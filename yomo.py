@@ -835,13 +835,3 @@ def crack(idf,pwv):
 			time.sleep(3)
 	loop+=1
 
-#------------------[ METHODE-MBASIC-2 ]-------------------#
-
-lol
-	except:pass
-	try:os.system('touch .prox.txt')
-	except:pass
-	login()
-
-
-#LOTS OF LOVE FROM RAZU 🌺
